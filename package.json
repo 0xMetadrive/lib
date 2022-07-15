@@ -1,7 +1,11 @@
 {
   "name": "@metadrive/lib",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
   "repository": "git@github.com:0xMetadrive/lib.git",
   "author": "Sumit Ghosh <sumit@sumit-ghosh.com>",
   "license": "MIT",
