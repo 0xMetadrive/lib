@@ -1,0 +1,16 @@
+{
+  "name": "@metadrive/lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:0xMetadrive/lib.git",
+  "author": "Sumit Ghosh <sumit@sumit-ghosh.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "crypto-ts": "^1.0.2",
+    "pkcs7-padding": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/pkcs7-padding": "^0.1.1"
+  }
+}
